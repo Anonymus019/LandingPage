@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Landing page</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Reem+Kufi|Roboto:300" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.12.0/css/all.css" rel="stylesheet">
+    <link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+
+</head>
+
+<body background="img/fondo.jpg">
+    <main>
+        <nav id="header" class="fixed w-full z-30 top-0 text-white">
+            <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
+                <div class="pl-4 flex items-center">
+                    <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl"
+                        href="#">
+                        LANDING PAGE
+                    </a>
+                </div>
+                <div id="nav-content">
+                    <ul class="list-reset lg:flex justify-end flex-1 items-center">
+                        <li class="mr-3">
+                            <button id="navAction"
+                                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-2 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                Link1
+                            </button>
+                        </li>
+                        <li class="mr-3">
+                            <button id="navAction"
+                                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-2 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                Link2
+                            </button>
+                        </li>
+                        <li class="mr-3">
+                            <button id="navAction"
+                                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-2 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                Link3
+                            </button>
+                        </li>
+                        <li class="mr-3">
+                            <button id="navAction"
+                                class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-2 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+                                ACCION A REALIZAR
+                            </button>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+            <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
+        </nav>
+        <div class="intro">Hola, soy el titulo de este landing page</div>
+        <div class="tagline">
+            <form class="form">
+                <input type="text" class="form-control" placeholder="Ingrese su email"
+                    style="text-align: center; color: black; width : 500px; height: 50px; ">
+            </form>
+            <button type="button" class="btn btn-dark mt-4">SUSCRIBETE</button>
+        </div>
+        <!-- Buscamos los íconos aquí - https://fontawesome.com/icons?d=gallery&s=brands -->
+        <div class="icons-social">
+            <a target="_blank" href="https://es-la.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+            <a target="_blank" href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+            <a target="_blank" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp-square"></i></a>
+            <a target="_blank" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+            <a target="_blank" href="https://www.twitch.tv/"><i class="fab fa-twitch"></i></a>
+        </div>
+    </main>
+</body>
+
+</html>
